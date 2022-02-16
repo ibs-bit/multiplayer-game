@@ -5,18 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script type="text/javascript" src="sockets.js"></script>
 </head>
 <body>
-<h1>Game Title will go here</h1>
-<!-- attached this form to a user authentictaion servlet or JSF class-->
-<form method="get" action="/src/servlet/login.java">
-    Username<br><input type="text" name="username"><br>
-    Password<br><input type="password" name="password"><br>
-    <input type="submit" value="login">    
-</form>
-
-
+    <h1>Game Title will go here</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label>Connected status: </label></td>
+                <td colspan="2"><label for="connection"></label><input type="text" size="50" id="connection" disabled/></td>
+            </tr>
+            <tr>
+                <td><label>Input:</label></td>
+                <td><label for="input"></label><input type="text" size="50" id="input"/></td>
+                <td><input type="submit" value="send" onclick="send(); return false;" /></td>
+            </tr>
+            <tr>
+                <td colspan="3"><label for="output"></label><textarea cols="100" rows="20" id="output"></textarea></td>
+            </tr>
+        </table>
+    </form>
 </body>
 
-
 </html>
+
