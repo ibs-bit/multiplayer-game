@@ -1,11 +1,23 @@
 body{
     align-items: center;
     background-color: whitesmoke;
-
+    text-align-all: left;
 }
 
+p{
+    color: black;
+    font-family: Cambria;
+    font-size: small;
+}
+
+table{
+    align-content: center;
+}
 h1{
     text-align: center;
-    color: darkslategray;
+    color: dimgray;
+    margin: 30px;
+    text-shadow: 0.5px 0 gray;
+    font-family: sans-serif;
 
 }

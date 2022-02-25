@@ -9,7 +9,7 @@ import java.util.*;
 
 
 @ServerEndpoint("/endpoint")
-public class Server {
+public class  Server {
 
 
     //Chat Endpoint code from Websocket Lecture
