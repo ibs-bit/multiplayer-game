@@ -8,20 +8,27 @@
     <script type="text/javascript" src="sockets.js"></script>
 </head>
 <body>
-    <h1>Game Title will go here</h1>
+    <h1>Ludo Game</h1>
+
+
+
+
+
+    <!-- Chat messages form -->
     <form>
         <table>
             <tr>
-                <td><label>Connected status: </label></td>
+                <td><p>Connected status:</p></td>
                 <td colspan="2"><label for="connection"></label><input type="text" size="50" id="connection" disabled/></td>
             </tr>
             <tr>
-                <td><label>Input:</label></td>
-                <td><label for="input"></label><input type="text" size="50" id="input"/></td>
+                <td><p>Message:</p></td>
+                <td><label for="input"></label><input type="text" size="24" id="input" va/></td>
                 <td><input type="submit" value="send" onclick="send(); return false;" /></td>
             </tr>
             <tr>
-                <td colspan="3"><label for="output"></label><textarea cols="100" rows="20" id="output"></textarea></td>
+                <td><p>Chat:</p></td>
+                <td colspan="3"><label for="output"></label><textarea cols="25" rows="10" id="output"></textarea></td>
             </tr>
         </table>
     </form>
