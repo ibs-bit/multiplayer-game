@@ -1,4 +1,4 @@
-package com.group.multiplayer;
+package gui;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

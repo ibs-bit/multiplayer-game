@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.group.multiplayer.Controller">
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller">
         <Pane fx:id="mainPane" prefHeight="432.0" prefWidth="651.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <GridPane gridLinesVisible="true" layoutX="26.0" layoutY="25.0" maxHeight="500.0" maxWidth="500.0" minHeight="297.0" minWidth="305.0" prefHeight="361.0" prefWidth="333.0">
                 

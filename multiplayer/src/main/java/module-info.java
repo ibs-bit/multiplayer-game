@@ -1,10 +1,10 @@
-module com.group.multiplayer {
+module com{
     requires javafx.controls;
     requires javafx.fxml;
 
     requires org.controlsfx.controls;
     requires validatorfx;
 
-    opens com.group.multiplayer to javafx.fxml;
-    exports com.group.multiplayer;
+    exports gui;
+    opens gui to javafx.fxml;
 }
