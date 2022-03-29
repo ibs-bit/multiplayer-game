@@ -8,14 +8,12 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.util.Objects;
-
-
-public class Interface extends Application {
+public class Board extends Application {
 
 
     @Override
     public void start(Stage stage) throws IOException {
-        AnchorPane root = FXMLLoader.load(Objects.requireNonNull(Interface.class.getResource("GUI.fxml")));
+        AnchorPane root = FXMLLoader.load(Objects.requireNonNull(Board.class.getResource("GUI.fxml")));
         Scene scene = new Scene(root);
         stage.setTitle("Hello!");
         stage.setScene(scene);

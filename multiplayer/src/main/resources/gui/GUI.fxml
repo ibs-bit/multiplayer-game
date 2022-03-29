@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.effect.Blend?>
 <?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
@@ -558,6 +561,20 @@
          </Pane>
             </GridPane>
       <TextArea fx:id="text" layoutX="372.0" layoutY="186.0" prefHeight="200.0" prefWidth="200.0" />
-      <Button fx:id="button" layoutX="372.0" layoutY="148.0" mnemonicParsing="false" onAction="#onButtonClick" text="Button" />
+      <Button fx:id="button" layoutX="372.0" layoutY="105.0" mnemonicParsing="false" onAction="#onButtonClick" text="Roll" />
+      <SplitPane dividerPositions="0.5" layoutX="372.0" layoutY="25.0">
+         <items>
+            <ImageView fx:id="leftImage" fitHeight="70.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/dice1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="rightImage" fitHeight="70.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/dice1.png" />
+               </image>
+            </ImageView>
+         </items>
+      </SplitPane>
         </Pane>
     </AnchorPane>

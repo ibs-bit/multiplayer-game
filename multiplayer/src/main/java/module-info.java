@@ -4,6 +4,7 @@ module com{
 
     requires org.controlsfx.controls;
     requires validatorfx;
+    requires java.desktop;
 
     exports gui;
     opens gui to javafx.fxml;
