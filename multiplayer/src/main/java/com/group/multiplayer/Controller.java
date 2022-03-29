@@ -12,3 +12,4 @@ public class Controller {
         welcomeText.setText("<Dice Roll Argument here>");
     }
 }
+}
