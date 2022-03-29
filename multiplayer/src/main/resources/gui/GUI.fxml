@@ -517,11 +517,11 @@
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" styleClass="blue" GridPane.columnIndex="2" GridPane.rowIndex="3" />
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" styleClass="blue" GridPane.columnIndex="3" GridPane.rowIndex="3">
             <children>
-               <Circle fx:id="bluePawn1" fill="DODGERBLUE" layoutX="12.0" layoutY="13.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" style="-fx-blend-mode: red;" styleClass="red" />
+               <Circle fx:id="bluePawn1" fill="#add8e6" layoutX="12.0" layoutY="13.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" style="-fx-blend-mode: red;" styleClass="red" />
             </children></Pane>
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" styleClass="red" GridPane.columnIndex="3" GridPane.rowIndex="2" >
             <children>
-               <Circle fx:id="bluePawn2" fill="DODGERBLUE" layoutX="12.0" layoutY="13.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" style="-fx-blend-mode: red;" styleClass="red" />
+               <Circle fx:id="bluePawn2" fill="#add8e6" layoutX="12.0" layoutY="13.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" style="-fx-blend-mode: red;" styleClass="red" GridPane.columnIndex="3" GridPane.rowIndex="2"/>
             </children></Pane>
 
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" styleClass="red" GridPane.columnIndex="3" GridPane.rowIndex="2" />
