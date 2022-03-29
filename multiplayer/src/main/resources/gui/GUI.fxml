@@ -12,9 +12,10 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
 
 <AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller">
-        <Pane fx:id="mainPane" prefHeight="432.0" prefWidth="651.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <Pane fx:id="mainPane" layoutX="7.0" layoutY="8.0" prefHeight="432.0" prefWidth="651.2" AnchorPane.bottomAnchor="-8.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="-7.0" AnchorPane.topAnchor="8.0">
             <GridPane gridLinesVisible="true" layoutX="26.0" layoutY="25.0" maxHeight="500.0" maxWidth="500.0" minHeight="297.0" minWidth="305.0" prefHeight="361.0" prefWidth="333.0">
                 
                 <columnConstraints>
@@ -63,7 +64,10 @@
                     </effect>
                 </Pane>
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" styleClass="red" GridPane.columnIndex="11" GridPane.rowIndex="14" />
-                <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" styleClass="red" GridPane.columnIndex="12" GridPane.rowIndex="11" />
+                <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" styleClass="red" GridPane.columnIndex="12" GridPane.rowIndex="11">
+            <children>
+               <Circle fx:id="redPawn1" fill="#e11b1b" layoutX="12.0" layoutY="12.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+            </children></Pane>
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" styleClass="red" GridPane.columnIndex="9" GridPane.rowIndex="13" />
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" styleClass="red" GridPane.columnIndex="9" GridPane.rowIndex="14" />
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" styleClass="red" GridPane.columnIndex="14" GridPane.rowIndex="12" />
@@ -511,8 +515,15 @@
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" styleClass="red" GridPane.columnIndex="2" GridPane.rowIndex="2" />
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" styleClass="blue" GridPane.columnIndex="2" GridPane.rowIndex="2" />
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" styleClass="blue" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-                <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" styleClass="blue" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-                <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" styleClass="red" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" styleClass="blue" GridPane.columnIndex="3" GridPane.rowIndex="3">
+            <children>
+               <Circle fx:id="bluePawn1" fill="DODGERBLUE" layoutX="12.0" layoutY="13.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" style="-fx-blend-mode: red;" styleClass="red" />
+            </children></Pane>
+                <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" styleClass="red" GridPane.columnIndex="3" GridPane.rowIndex="2" >
+            <children>
+               <Circle fx:id="bluePawn2" fill="DODGERBLUE" layoutX="12.0" layoutY="13.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" style="-fx-blend-mode: red;" styleClass="red" />
+            </children></Pane>
+
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" styleClass="red" GridPane.columnIndex="3" GridPane.rowIndex="2" />
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" styleClass="red" GridPane.columnIndex="3" GridPane.rowIndex="2" />
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" styleClass="blue" GridPane.columnIndex="3" GridPane.rowIndex="2" />
